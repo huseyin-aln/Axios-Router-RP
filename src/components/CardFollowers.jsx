@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Card, Button } from "react-bootstrap";
 
-const CardFollowers = () => {
+const CardFollowers = ({ follower }) => {
   return (
     <div>
       <Col>

@@ -11,7 +11,7 @@ const Home = () => {
 
   const getFollowers = async () => {
     const { data } = await axios.get(
-      "https://api.github.com/users/anthonyharold67/followers?per_page=100"
+      "https://api.github.com/users/huseyin-aln/followers?per_page=100"
     );
     setAllFollowers(data);
     console.log(data);
