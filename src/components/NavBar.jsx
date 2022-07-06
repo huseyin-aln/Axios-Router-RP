@@ -19,7 +19,7 @@ const NavBar = () => {
       <Navbar bg="success" variant="dark">
         {isOpen ? (
           <Container>
-            <Navbar.Brand href="/home">Clarusway</Navbar.Brand>
+            <Navbar.Brand href="/home">REACT PROJECT</Navbar.Brand>
             <Nav className="me-auto">
               <NavLink to="/home">Home</NavLink>
               <NavLink to="/about">About</NavLink>
