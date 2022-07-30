@@ -30,7 +30,7 @@ const NavBar = () => {
           </Container>
         ) : (
           <Container>
-            <Navbar.Brand href="">Clarusway</Navbar.Brand>
+            <Navbar.Brand href="">{"<h-aln />"}</Navbar.Brand>
           </Container>
         )}
       </Navbar>
